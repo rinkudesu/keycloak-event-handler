@@ -9,3 +9,8 @@ Then, you'll be able to go to Configure > Realm settings > Events and select "us
 
 Note that, right now, this listener is only handling user deletions, as it's the only action required by the rest of rinkudesu.
 Since other microservices don't need to be aware of other user-related actions (including user creation), no other actions will probably ever be handled here.
+
+## Building
+
+To build, open in IntelliJ and run the config provided in `.run` directory.
+I'm personally not 100% sure what that does as I've been spared from writing Java code for most of my life up to this point, but it certainly works (on my machine).
